@@ -10,11 +10,6 @@ class Anagram
   def match(possible_matches)
     possible_matches.select do |string|
     if "#{string.split("").sort}" == word.split("").sort
-      string
-    else
-      []
-    end
-  end
-end
+    
 
 end
