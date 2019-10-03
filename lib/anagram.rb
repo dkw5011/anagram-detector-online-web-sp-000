@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(possible_matches)
-    possible_matches.select do |string|
+    possible_matches.select {|string| string.split("")
     if "#{string.split("").sort}" == word.split("").sort
     
 
