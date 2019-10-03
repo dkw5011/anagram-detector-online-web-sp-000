@@ -9,7 +9,4 @@ class Anagram
   
   def match(possible_matches)
     possible_matches.select {|string| string.split("").sort == word.split("").sort}
-  
-    
-
 end
